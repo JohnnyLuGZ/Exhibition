@@ -1,0 +1,57 @@
+@tailwind base;
+
+@tailwind components;
+
+/** Link */
+a {
+    @apply text-gray-700
+}
+
+.dim:hover {
+    @apply opacity-75
+}
+/** Table */
+.table {
+    @apply w-full
+}
+.table thead {
+    @apply text-sm font-bold
+}
+.table thead th {
+    @apply py-3
+}
+.table tbody td {
+    @apply py-3
+}
+
+/** Svg */
+.icon {
+    @apply fill-current
+}
+
+/** Card */
+.card-title {
+    @apply p-4 text-lg
+}
+
+/** Button */
+.btn {
+    @apply bg-blue-500 px-8 py-2 rounded-lg text-white text-sm font-bold
+}
+.btn:hover {
+    @apply opacity-75
+}
+.btn-link {
+    @apply text-gray-500 text-sm
+}
+.btn-reset {
+    @apply bg-white text-gray-500
+}
+
+@tailwind utilities;
+
+@import "~animate.css/animate.css";
+
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
